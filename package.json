@@ -11,14 +11,14 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onLanguage:typescript"
     ],
     "main": "./out/src/extension",
     "contributes": {
         "commands": [
             {
                 "command": "extension.sayHello",
-                "title": "Hello World"
+                "title": "No Debuggers"
             }
         ]
     },
