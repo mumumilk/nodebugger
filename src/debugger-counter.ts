@@ -5,7 +5,7 @@ export class DebuggerCounter {
 
     public updateDebuggerCounter(){
         if(!this._statusBarItem){
-            this._statusBarItem = window.createStatusBarItem(StatusBarAlignment.Right);
+            this._statusBarItem = window.createStatusBarItem(StatusBarAlignment.Left);
         }
 
         this._statusBarItem.text =  "Debuggers: " ;

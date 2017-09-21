@@ -20,6 +20,20 @@
                 "command": "extension.sayHello",
                 "title": "No Debuggers"
             }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.clearFileDubuggers",
+                "key": "Ctrl+Shift+F9",
+                "title": "Clear Debuggers",
+                "when": "editorTextFocus"
+            },
+            {
+                "command": "extension.clearAllDebuggers",
+                "key": "Ctrl+Shift+F10",
+                "title": "Clear Debuggers",
+                "when": "editorTextFocus"
+            }
         ]
     },
     "scripts": {
